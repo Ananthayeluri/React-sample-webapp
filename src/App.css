@@ -1,0 +1,82 @@
+*{
+margin:0;
+padding:0;
+box-sizing: border-box;
+}
+
+body{
+  text-align: justify;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  margin:10px;
+}
+ 
+ nav {
+  border-bottom: 2px solid black;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: linear-gradient(-180deg, #BCC5CE 0%, #929EAD 98%), radial-gradient(at top left, rgba(255,255,255,0.30) 0%, rgba(0,0,0,0.30) 100%);
+ background-blend-mode: screen;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  padding: 16px 32px;
+}
+
+nav a:hover {
+  background: black;
+  color: white;
+}
+#article {
+  max-width: 700px;
+  margin: auto;
+  padding-top: 64px;
+}
+
+.articlelist {
+  text-decoration: none;
+  color: black;
+  padding: 16px 0 0 0;
+}
+
+.articlelist p {
+  padding-bottom: 32px;
+  border-bottom: 2px solid black;
+}
+.col-md-6{
+  display:block;
+  margin:0 auto;
+  box-sizing: border-box;
+  box-shadow:2px 2px 2px 2px slategrey;
+  padding:20px;
+  max-width: 400px;
+  padding-top: 64px;
+  padding-bottom: 64px;
+  background: linear-gradient(-180deg, #BCC5CE 0%, #929EAD 98%), radial-gradient(at top left, rgba(255,255,255,0.30) 0%, rgba(0,0,0,0.30) 100%);
+ background-blend-mode: screen;
+  margin-top:50px;
+  margin-bottom:50px;
+}
+#title{
+  margin-top:25px;
+}
+iframe{
+  margin:10px;
+}
